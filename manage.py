@@ -24,4 +24,31 @@ class humano():#CREACION DE CLASE HUMANO
 #SE LE ENTREGA LOS VALORES SOLICITADOS Y ASI SE CREA UN OBJETO DE LA CLASE HUMANO
 humano_1 = humano("chronos", 30, "chile")
 
+# SE ACTUALIZA EL VALOR DEL ATRIBUTO NOMBRE
 humano_1.nombre = "Alexander"
+
+#DEL ELIMINA EL ATRIBUTO PAIS DEL OBJETO HUMANO_1
+#SE PUEDE ELIMINAR EL OBJETO TAMBIEN CON DEL
+#del humano_1.pais 
+#del humano_1
+
+print(humano_1)
+#___________________________________________________________
+#           HERENCIA
+
+class persona():
+    
+    def __init__(self, fname, lname):
+        self.fname = fname
+        self.lname = lname
+    
+    def imprimir(self):
+        print(self.fname, self.lname)
+
+persona_1 = persona("alexander", "hernandez")
+persona_1.imprimir()
+    
+
+        
+        
+
