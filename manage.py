@@ -24,3 +24,4 @@ class humano():#CREACION DE CLASE HUMANO
 #SE LE ENTREGA LOS VALORES SOLICITADOS Y ASI SE CREA UN OBJETO DE LA CLASE HUMANO
 humano_1 = humano("chronos", 30, "chile")
 
+humano_1.nombre = "Alexander"
